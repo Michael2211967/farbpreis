@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-#include "textupper.h"
+#include "upper.h"
 
 float kiloprice;
 float kiloquantity;
@@ -34,7 +34,7 @@ int main()
 		printf("Der Preis für diese %.2f kg Farbe beträgt %.2f EUR.\n", quantity, price);
 		printf("\nWollen Sie noch eine neue Fläche berechnen? ");
 		scanf("%10s", answer);
-		textupper(answer);
+		m_upper(answer);
 	} while (strcmp(answer, "JA") == 0);
 	puts("\nAuf Wiedersehen\n");
 }
