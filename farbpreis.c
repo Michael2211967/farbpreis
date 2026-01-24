@@ -35,6 +35,6 @@ int main()
 		printf("\nWollen Sie noch eine neue Fläche berechnen? ");
 		scanf("%10s", answer);
 		m_upper(answer);
-	} while (strcmp(answer, "JA") == 0);
+	} while (strcmp(answer, "JA") == 0 || answer[0] == 'J');
 	puts("\nAuf Wiedersehen\n");
 }
