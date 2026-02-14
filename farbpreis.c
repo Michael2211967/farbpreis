@@ -21,7 +21,7 @@ int main()
 
 	kiloprice = getSafeFloat("Preis je Kilo Farbe: ");
 	kiloquantity = getSafeFloat("Kilo je Quadratmeter: ");
-	tax_rate = getSafeFloat("Mehrwertsteuersatz: ");
+	tax_rate = getSafeFloat("Mehrwertsteuersatz (Eingabe 0: Defaultwert 19 %): ");
 	if (tax_rate == 0) 
 		tax_rate = 19;
 	do
